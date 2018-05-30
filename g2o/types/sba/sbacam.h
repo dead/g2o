@@ -54,9 +54,9 @@ namespace g2o {
 
   class G2O_TYPES_SBA_API SBACam: public SE3Quat
   {
-    EIGEN_MAKE_ALIGNED_OPERATOR_NEW
-
     public:
+      EIGEN_MAKE_ALIGNED_OPERATOR_NEW
+      
       // camera matrix and stereo baseline
       Matrix3 Kcam; 
       number_t baseline;
@@ -197,9 +197,9 @@ namespace g2o {
 
   class G2O_TYPES_SBA_API EdgeNormal
   {
-    EIGEN_MAKE_ALIGNED_OPERATOR_NEW
-
     public:
+      EIGEN_MAKE_ALIGNED_OPERATOR_NEW
+
       // point position
       Vector3 pos;
 

@@ -56,9 +56,9 @@ namespace g2o {
 
   class G2O_TYPES_ICP_API EdgeGICP
   {
-    EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
-
    public:
+    EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
+    
     // point positions
     Vector3 pos0, pos1;
 
