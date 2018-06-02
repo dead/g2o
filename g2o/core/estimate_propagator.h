@@ -101,7 +101,7 @@ namespace g2o {
       /**
        * \brief data structure for loopuk during Dijkstra
        */
-      class AdjacencyMapEntry {
+      class G2O_CORE_API AdjacencyMapEntry {
         public:
           friend class EstimatePropagator;
           friend class PriorityQueue;
